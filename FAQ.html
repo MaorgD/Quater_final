@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico.ico">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="help.css" />
+    <link rel="stylesheet" href="FAQ.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container-lg">
+        <nav class="row py-3 justify-content-between align-items-center">
+          <ul
+            id="nav_open"
+            class="m-0 col-md-6 col-lg-5 justify-content-between"
+          >
+            <li>
+              <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li>
+              <a href="about.html"> <i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+            </li>
+            <li>
+              <a href="media.html"> <i class="fa fa-camera" aria-hidden="true"></i> Gallery</a>
+            </li>
+            <li>
+              <a href="FAQ.html"> <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+            </li>
+            <li>
+              <a href="contact.html"> <i class="fa fa-commenting-o" aria-hidden="true"></i> contact</a>
+            </li>
+
+            <li>
+              <a href="trivia.html"> <i class="fa fa-trophy" aria-hidden="true"></i> Trivia</a>
+            </li>
+          </ul>
+          <div id="burger_btn" class="col-3 d-md-none">
+            <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+          </div>
+          <div class="col-3 text-end">
+            <img src="img/קוקיז.png" alt="icon" width="32px" />
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="container-fluid text-center border">
+      <!-- שאלות ותשובות -->
+      <h1 class="my-4 display-2">some questions for you</h1>
+
+      <!-- start accordion -->
+
+      <div
+        class="container len col-9 accordion accordion-flush"
+        id="accordionFlushExample"
+      >
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              <!-- Accordion Item #1 -->
+              Is our bakery kosher?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Yes,all of our products are kosher and we have a document kosher <code>hamoaza-hadtit-jerusalem</code>. also we are closed on friday and suterday.
+            </div>
+          </div>
+        </div>
+        <!-- end qz1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              <!-- Accordion Item #2 -->
+             Do you have a delivery service? Can you order from the bakery
+             outside the arya ?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Of course! we have deliveries, the minimum spend is 25$ and in a 5km range from the store ordering ousite said range will carry additional charge.
+
+            </div>
+          </div>
+        </div>
+        <!-- end qz2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              <!-- Accordion Item #3 -->
+              What can i find in your bakery?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+            As you can see in our galleries, we're inspired by cuisines from all over the world <code>France|Italy|Belgium</code>.
+              we do our best to try and respect every culture we meet alond the way and add our own personal tuch to it !!!
+            </div>
+          </div>
+        </div>
+        <!-- end qz3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingMaor">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapsemaor"
+              aria-expanded="false"
+              aria-controls="flush-collapseMaor"
+            >
+              <!-- Accordion Item #4 -->
+              How long does it take for my order to arrive? can i cancel my order?
+            </button>
+          </h2>
+          <div
+            id="flush-collapsemaor"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingfour"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Some items may take up to 48 hours, it will be spedifaied in the item page. cancelation is possiabe up to a message from us that the item is being prepared, after that 75% of the total order value you will be charged.
+            </div>
+          </div>
+        </div>
+        <!-- end qz4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTGuy">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseguy"
+              aria-expanded="false"
+              aria-controls="flush-collapseGuy"
+            >
+              <!-- Accordion Item #5 -->
+              I want to book you for an event but i want to change some things to my liking, is it possiable?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseguy"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingfive"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Your event must fit you and your guests so spiceal event menu is being done with you and the chef in chrage of it according to your personal taste. for more info you are more than welcome to <a href="contact.html">CONTACT US</a>
+              . 
+            </div>
+          </div>
+        </div>
+        <!-- end quize5 -->
+      </div>
+      <!-- end accordion -->
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="col-12 row justify-content-around text-center">
+          <div>
+            <a href="https://he-il.facebook.com/" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-facebook-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="https://twitter.com/?lang=he" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-twitter-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-linkedin-square"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <p class="text-black-50 mb-3 maor">
+            &copy; Maor gabay | Full Stack | developer |  <span id="id_year">  2022 </span>
+            
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="burger.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

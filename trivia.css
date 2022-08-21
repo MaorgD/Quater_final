@@ -1,0 +1,19 @@
+main {
+  min-height: 600px;
+}
+
+main .div{
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/queiz2.jpg);
+  color: white;
+  border-radius: 32px;
+
+}
+
+@media (max-width:768px) {
+  .main2 button {
+    width: 80%;
+  }
+
+}

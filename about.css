@@ -1,0 +1,58 @@
+.strip {
+  min-height: 500px;
+  /* background: url(img/מאפים\ לסטריפ.jpg); */
+  background: burlywood;
+  background-size: cover;
+  background-position: center;
+}
+.strip h2,
+h4 {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  color: black;
+}
+
+.strip p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.strip .box {
+  /* border: 2px solid black; */
+  min-height: 400px;
+
+  padding: 8px;
+  text-align: center;
+}
+.strip .box img {
+  padding: 8px 0 0 4px;
+  border-radius: 50%;
+}
+
+.strip p {
+  /* font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif; */
+  font-family: 'Cormorant SC', serif;
+  font-size: 2em;
+  color: black;
+}
+.strip button {
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .strip .box {
+    width: 100%;
+    border-radius: 40%;
+    padding: 4px;
+  }
+
+  .strip p {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+  }
+
+  .strip .btm {
+    font-size: 1.3em;
+  }
+}

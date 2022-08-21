@@ -1,0 +1,87 @@
+main {
+  min-height: 500px;
+}
+main .strip .carousel .carousel-item {
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+}
+main .boxm {
+  background: burlywood;
+}
+
+main h3 {
+  border: 2px solid white;
+  background: rgba(244, 165, 96, 0.356);
+  border-radius: 20%;
+  padding: 10px;
+}
+.article1 {
+  min-height: 750px;
+}
+
+article p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+article .boxm {
+  min-height: 450px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 5px #000000;
+ 
+}
+
+article .banerR {
+  min-height: 40%;
+  background: rgba(244, 165, 96, 0.6);
+}
+
+.article2 h4{
+  margin: 12px 0 4px 0;
+}
+
+.strip .box {
+  overflow: hidden;
+}
+
+.strip .container p {
+  font-family: 'Uchen', serif;
+}
+
+.strip article p {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.strip .box1 .pic {
+  background-image: url(https://i.ibb.co/7X9wNFF/3.jpg);
+  min-height: 300px;
+  background-size: cover;
+  background-position: cover;
+}
+
+.strip {
+  background: burlywood;
+}
+
+@media (max-width: 768px) {
+  main article img {
+    margin-bottom: 50px;
+  }
+  article {
+    margin: 0;
+  }
+  .strip-mobile {
+    background-image: url(https://i.ibb.co/jMHNWb3/pexels-felicity-tai-7966096.jpg);
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .strip {
+    font-size: 0.8em;
+  }
+  .bakery {
+    order: -1;
+  }
+}

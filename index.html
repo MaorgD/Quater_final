@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Roboto:ital,wght@0,700;1,300&display=swap");
+</style>
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;700&display=swap');
+</style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+  </style>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+  </style>
+
+  
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="help.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container-lg">
+        <nav class="row py-3 justify-content-between align-items-center">
+          <ul
+            id="nav_open"
+            class="m-0 col-md-6 col-lg-5 justify-content-between"
+          >
+            <li>
+              <a href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            </li>
+            <li>
+              <a href="about.html"> <i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+            </li>
+            <li>
+              <a href="media.html"> <i class="fa fa-camera" aria-hidden="true"></i> Gallery</a>
+            </li>
+            <li>
+              <a href="FAQ.html"> <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ</a>
+            </li>
+            <li>
+              <a href="contact.html"> <i class="fa fa-commenting-o" aria-hidden="true"></i> contact</a>
+            </li>
+
+            <li>
+              <a href="trivia.html"> <i class="fa fa-trophy" aria-hidden="true"></i> Trivia</a>
+            </li>
+          </ul>
+          <div id="burger_btn" class="col-3 d-md-none">
+            <i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+          </div>
+          <div class="col-3 text-end">
+            <img src="img/קוקיז.png" alt="icon" width="32px" />
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+      <div
+        class="strip-mobile d-flex d-md-none align-items-center justify-content-center"
+      >
+        <h1 style="font-size: 3em; color: white" class="mt-5">Gabay Bakery</h1>
+      </div>
+      <!-- 
+      <div class="strip d-none d-md-block"> 
+        <div
+          id="carouselExampleControls"
+          class="carousel carousel-fade slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div
+              style="background-image: url(img/לחמון_למדיה.jpg)"
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">Wide selection of handmade breads</h3>
+            </div>
+
+            <div
+              style="
+                background-image: url('img/פיצה.jpg');
+                background-position-y: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end justify-content-center"
+            >
+              <h3 class="font">Little Italy</h3>
+            </div>
+
+            <div
+              style="
+                background-image: url('img/סופגניות\ לסטריפ.jpg');
+                background-position-x: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">A variety of patisserie cakes</h3>
+            </div>
+
+           <div
+              style="
+                background-image: url('img/סופגניות\ לסטריפ.jpg');
+                background-position-x: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">A variety of patisserie cakes</h3>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>  -->
+
+      <div class="strip d-none d-md-block">
+        <div
+          id="carouselExampleControls"
+          class="carousel carousel-fade slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div
+              style="background-image: url(img/לחמון_למדיה.jpg)"
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">Wide selection of handmade breads</h3>
+            </div>
+
+            <div style="
+                background-image: url('img/פיצה.jpg');
+                background-position-y: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end justify-content-center"
+            >
+              <h3 class="font">Little Italy</h3>
+            </div>
+
+            <div
+              style="
+                background-image: url('img/סופגניות\ לסטריפ.jpg');
+                background-position-x: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">A variety of patisserie cakes</h3>
+            </div>
+
+            <div
+              style="
+                background-image: url('img/מאפים\ לסטריפ.jpg');
+                background-position-x: 0px;
+              "
+              data-bs-interval="3000"
+              class="carousel-item text-white active d-flex align-items-end text-center justify-content-center"
+            >
+              <h3 class="font">Artisan sourdough breads</h3>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div> 
+
+      <article class="article1 container-fluid overflow-hidden">
+        <div class="container ">
+          <div class="row justify-content-between mt-5" >
+            <!-- start baner1 -->
+            <div
+            data-aos="zoom-out-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+              class="mb-3 p-0 boxm col-12 col-md-3" 
+            >
+              <div class="banerR bottom p-3 text-center">
+                <p>
+                  Want to learn from the best? Come and take part in our courses! bakery, pastry, breads or pizzas we have it all in forms of classes, couples, or your own group..whatever fits your wants and needs in order to brind the inner chef out of you.
+                  for more info about our curses, contact us <a href="contact.html" target="_blank" >HERE</a> 
+                  <!-- the number <code>052-3642328</code> or leave direct message -->
+                </p>
+              </div>
+              <div class="overflow-hidden">
+                <img src="img/משפחה מבשלת.jpg" alt="family" width="100%" height="100%"  />
+              </div>
+            </div>
+            <!-- end baner1 -->
+
+            <div class="bakery col-12 col-md-5 text-center">
+              <img src="img/logo_bakery.png" alt="logo" width="100%" />
+              <img src="img/logo_shef.png" alt="logo" width="60%" />
+            </div>
+
+            <!-- banner 2 Start -->
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              class="mb-3 p-0 boxm col-12 col-md-3" 
+            >
+              <div class="banerR bottom p-3 text-center" >
+                <p>
+              
+                  We are proud to say that it has been our privlage to serve you for 22 YEARS NOW!!! so we wand to celebrate it with all of you with a 23% discount !!ON EVERYTHING!!, one for each  year and one more for the the one to follow.
+                  
+                </p>
+              </div>
+              <div class="overflow-hidden">
+                <img src="img/יום הולדת למקום.jpg" alt="family" width="100%" height="100%" />
+              </div>
+            </div>
+            <!-- end baner2 -->
+
+          </div>
+        </div>
+      </article>
+    </main>
+    <!-- main end -->
+
+    <!-- strip start -->
+    <div class="strip container-fluid overflow-hidden">
+      <div class="container">
+        <div>
+          <p class="text-center p-5" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            Our bakery takes care and values every little detail, starting from choosing the finest ingredients up to the staff who uses them in order to bring you all that your heart soul and stomach desires.
+            We work very hard to continue to be one of the leaders in the field and we're
+            constantly strive to excite you. 
+            at the head of our team you can find two members of the Gabay family that are world renowned at thier filed, one is Guy Gabay who is our head baker and the other is Shaked Gabay who's our head pastry chef.
+            we gladly invete you im meeting them and all of our crew by scrolling down and get to know them and thier craft.
+          </p>
+        </div>
+
+        <div class="article2 row justify-content-between text-center">
+          <div
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            class="big_pic p-3 col-12"
+          >
+            <h4>Meet our shef's</h4>
+            <a
+              href="https://www.youtube.com/results?search_query=%D7%A9%D7%A4%D7%99%D7%9D+%D7%9E%D7%91%D7%A9%D7%9C%D7%99%D7%9D"
+              target="_blank"
+            >
+              <div class="box">
+                <img src="img/chef1.jpg" alt="chef's" width="250px" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-5 col-12 mb-3" 
+            data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+            class="p-3 col-5"
+          >
+            <h4>The twins</h4>
+            <a href="https://www.youtube.com/watch?v=z4IscgEbWoA&ab_channel=ProHomeCooks" target="_blank">
+              <div class="box">
+                <img src="img/chef2.jpg" alt="chef" width="250px" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-5 col-12 mb-3"
+            data-aos="zoom-out-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="p-3 col-5"
+          >
+            <h4>The goldan boy</h4>
+            <a href="https://www.youtube.com/watch?v=TJ4Gg_eK6n8&ab_channel=%D7%94%D7%90%D7%92%D7%95%D7%93%D7%94%D7%9C%D7%9E%D7%9C%D7%97%D7%9E%D7%94%D7%91%D7%A1%D7%A8%D7%98%D7%9F" target="_blank">
+              <div class="box">
+                <img src="img/chef3.jpg" alt="chef" width="250px" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-5 col-12 mb-3"
+            data-aos="zoom-in-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="p-3 col-5"
+          >
+            <h4>Old school cooking</h4>
+            <a href="https://www.youtube.com/watch?v=zXPC7CteVD8&ab_channel=reshettv" target="_blank">
+              <div class="box">
+                <img src="img/chef5.jpg" alt="chef" width="250px" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-5 col-12 mb-3"
+            data-aos="zoom-out-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            class="p-3 col-5"
+          >
+            <h4>Grandma style</h4>
+            <a href="https://www.youtube.com/watch?v=_erSDAz7k-w&ab_channel=TomKlinorain" target="_blank">
+              <div class="box">
+                <img src="img/chef6.jpg" alt="chef" width="250px" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- strip end -->
+
+    <!-- strat footer -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="col-12 row justify-content-around text-center">
+          <div>
+            <a href="https://he-il.facebook.com/" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-facebook-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="https://twitter.com/?lang=he" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-twitter-square"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="px-3 my-4 fa fa-2x fa-instagram" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <i
+                class="px-3 my-4 fa fa-2x fa-linkedin-square"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <p class="text-black-50 mb-3 maor">
+            &copy; Maor gabay | Full Stack | developer |  <span id="id_year">  2022 </span>
+            
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="burger.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
