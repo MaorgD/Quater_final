@@ -58,7 +58,7 @@ main .top .container {
   width: 100%;
   height: 100%;
   /* רקע שחור שקוף */
-  background: lightgoldenrodyellow;
+  background: rgba(255, 255, 255, 0.826);
   /* שתמיג יהיה הכי קדימה */
   z-index: 999;
   /* כדי לגרום לבוקס הפנימי להיות ממוקם באמצע */
